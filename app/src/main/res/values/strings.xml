@@ -1,7 +1,9 @@
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
 
     <string name="about_activity_title">Sobre o PetVaccine&#8230;</string>
-    <string name="about_text">O PetVaccine foi criado em Abril de 2015 como projeto do curso Android Study Jam de Goiânia-Goiás por Lucas Batalha Carvalho (lucasb.ufg@gmail.com), graduando em Ciência da Computação, com acompanhamento de Bruna Rodrigues (brunagr_vet@hotmail.com), graduanda em Medicina Veterinária, ambos pela Universidade Federal de Goiás. Especiais agradecimentos ao Professor Marcelo Quinta.</string>
+    <string name="about_ass">Lucas Batalha de Carvalho\n(lucasb.ufg@gmail.com)</string>
+    <string name="about_text">O PetVaccine foi criado em Abril de 2015 como projeto do curso Android Study Jam de Goiânia por Lucas Batalha - Ciência da Computação, UFG - com acompanhamento de Bruna Rodrigues - Medicina Veterinária, UFG - sob orientações do Prof. Marcelo Quinta - Instituto de Informática, UFG.</string>
+    <string name="about_versao">Versão 1.0</string>
 
     <string name="app_name">PetVaccine</string>Z
 
