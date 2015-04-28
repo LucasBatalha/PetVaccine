@@ -1,0 +1,49 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/app_azul</item>
+        <item name="colorPrimaryDark">@color/app_azul_escuro</item>
+    </style>
+
+    <style name="MainActivityTheme" parent="AppTheme">
+        <item name="actionBarStyle">@style/MainActivityActionBarStyle</item>
+    </style>
+
+    <style name="MainActivityActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="displayOptions">useLogo|showHome|showTitle</item>
+        <item name="logo">@mipmap/ic_launcher</item>
+        <item name="title">@string/app_name</item>
+    </style>
+
+    <style name="AppButton" >
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="AppDisplayText" >
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="AppListItem">
+        <item name="android:padding">3dp</item>
+    </style>
+
+    <style name="AppListItemText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <style name="AppListItemSmallText">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <style name="AppTitleText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+</resources>

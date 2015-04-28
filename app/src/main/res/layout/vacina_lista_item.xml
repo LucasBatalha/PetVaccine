@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/touch_selector"
+    style="@style/AppListItem" >
+
+    <TextView
+        android:id="@+id/vacina_lista_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/vacina_lista_item"
+        style="@style/AppListItemText" />
+
+</LinearLayout>

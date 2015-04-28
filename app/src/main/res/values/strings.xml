@@ -1,0 +1,135 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <string name="about_activity_title">Sobre o PetVaccine&#8230;</string>
+    <string name="about_text">O PetVaccine foi criado em Abril de 2015 como projeto do curso Android Study Jam de Goiânia-Goiás por Lucas Batalha Carvalho (lucasb.ufg@gmail.com), graduando em Ciência da Computação, com acompanhamento de Bruna Rodrigues (brunagr_vet@hotmail.com), graduanda em Medicina Veterinária, ambos pela Universidade Federal de Goiás. Especiais agradecimentos ao Professor Marcelo Quinta.</string>
+
+    <string name="app_name">PetVaccine</string>Z
+
+    <string name="botao_adicionar">Adicionar</string>
+
+    <string name="erro_campos_mal_preenchidos">Por favor, preencha todos os campos corretamente!</string>
+    <string name="erro_data_invalida">Data inválida!</string>
+    <string name="erro_data_nascimento_invalida">Data de nascimento inválida!</string>
+
+    <string name="main_adicionar">Adicionar</string>
+    <string name="main_excluir_nao">Não</string>
+    <string name="main_excluir_sim">Excluir</string>
+    <string name="main_pergunta_excluir_pet">Deseja excluir todos os dados de "<xliff:g id="pet">%s</xliff:g>"?</string>
+    <string name="main_lista_pets_vazia">Bem-vindo! O VaccinePet vai te ajudar a controlar e conhecer melhor as vacinas e os medicamentos dos seus cães! Adicione o primeiro clicando no botão abaixo&#8230;</string>
+
+    <string name="menu_about">Sobre&#8230;</string>
+    <string name="menu_adicionar">Adicionar</string>
+
+    <string name="mensagem_botao">OK</string>
+    <string name="mensagem_titulo_atencao">Atenção</string>
+    <string name="mensagem_titulo_erro">Erro</string>
+    <string name="mensagem_titulo_info">Info</string>
+
+    <string name="pet_adiciona_activity_title">Adicionando&#8230;</string>
+    <string name="pet_adiciona_adicionado">O pet foi adicionado!</string>
+    <string name="pet_adiciona_erro_imagem">Desculpe, não foi possível salvar a imagem!</string>
+
+    <string name="pet_detalhes_alterar_imagem">Toque na imagem para alterar</string>
+    <string name="pet_detalhes_botao_vacinas_proximas">Próximas vacinas</string>
+    <string name="pet_detalhes_nascimento">Nascimento:</string>
+    <string name="pet_detalhes_nome">Nome:</string>
+    <string name="pet_detalhes_raca">Raça:</string>
+    <string name="pet_detalhes_activity_title">Detalhes do Pet</string>
+
+    <string name="vacina_aplicacao_activity_title">Aplicação da Vacina</string>
+    <string name="vacina_aplicacao_botao_ok">Confirmar</string>
+    <string name="vacina_aplicacao_data_aplicacao">Data da aplicação:</string>
+    <string name="vacina_aplicacao_data_previsao">Prevista para: <xliff:g id="data_previsao">%s</xliff:g></string>
+    <string name="vacina_aplicacao_laboratorio">Laboratório:</string>
+    <string name="vacina_aplicacao_lote">Lote:</string>
+    <string name="vacina_aplicacao_numdose"><xliff:g id="pet">%d</xliff:g>ª dose</string>
+    <string name="vacina_aplicacao_pergunta">Confira os dados da aplicação desta dose:\n\tVacina:\t\t\t\t\t<xliff:g id="nome_vacina">%s</xliff:g>\n\tAplicada em:\t\t<xliff:g id="data_aplicacao">%s</xliff:g>\n\tLaboratório:\t\t<xliff:g id="laboratorio">%s</xliff:g>\n\tLote:\t\t\t\t\t\t<xliff:g id="lote">%s</xliff:g> \n\nDeseja salvar?</string>
+    <string name="vacina_aplicacao_pergunta_nao">Cancelar</string>
+    <string name="vacina_aplicacao_pergunta_sim">Salvar</string>
+    <string name="vacina_aplicacao_se_aplicou">Esta dose foi aplicada?</string>
+    <string name="vacina_aplicacao_titulo"><xliff:g id="pet">%s</xliff:g> - <xliff:g id="vacina">%s</xliff:g>:</string>
+
+    <string name="vacina_detalhes_activity_title">Detalhes da Vacina</string>
+    <string name="vacina_detalhes_item_text"><xliff:g id="num_dose">%d</xliff:g>ª dose: <xliff:g id="data">%s</xliff:g></string>
+    <string name="vacina_detalhes_info_titulo">Informações:</string>
+    <string name="vacina_detalhes_titulo">Doses de <xliff:g id="vacina">%s</xliff:g> para <xliff:g id="pet">%s</xliff:g>:</string>
+
+    <string name="vacina_lista_activity_title">Vacinas</string>
+    <string name="vacina_lista_titulo">Próximas vacinas de <xliff:g id="pet">%s</xliff:g></string>
+    <string name="vacina_lista_item"><xliff:g id="data">%s</xliff:g> - <xliff:g id="vacina">%s</xliff:g></string>
+
+    <string-array name="array_pet_racas">
+        <item>Akita Inu</item>
+        <item>Beagle</item>
+        <item>Beagle Harrier</item>
+        <item>Bobtail</item>
+        <item>Boiadeiro de Berna</item>
+        <item>Boxer</item>
+        <item>Braco Alemão</item>
+        <item>Braco Francês</item>
+        <item>Bull Terrier Inglês</item>
+        <item>Bulldog Americano</item>
+        <item>Bulldog Inglês</item>
+        <item>Cairn Terrier</item>
+        <item>Cane Corso</item>
+        <item>Caniche</item>
+        <item>Cão de Crista Chinês</item>
+        <item>Cão d’Água Espanhol</item>
+        <item>Cão Lobo Checoslovaco</item>
+        <item>Cavalier King Charles Spaniel</item>
+        <item>Chihuahua</item>
+        <item>Chow-Chow</item>
+        <item>Cocker Americano</item>
+        <item>Cocker Spaniel Inglês</item>
+        <item>Collie</item>
+        <item>Dálmata</item>
+        <item>Doberman</item>
+        <item>Dogue Alemão</item>
+        <item>Dogue de Bordéus</item>
+        <item>Epagneul Bretão</item>
+        <item>Fila Brasileiro</item>
+        <item>Fox Terrier</item>
+        <item>Galgo Afegão</item>
+        <item>Golden Retriever</item>
+        <item>Husky Siberiano</item>
+        <item>Ibizan Hound</item>
+        <item>Jack Russel Terrier</item>
+        <item>Lhasa Apso</item>
+        <item>Mastiff</item>
+        <item>Mastim dos Pirenéus</item>
+        <item>Mastim Espanhol</item>
+        <item>Mastim Napolitano</item>
+        <item>Norfolk Terrier</item>
+        <item>Papillon</item>
+        <item>Pastor Alemão</item>
+        <item>Pastor de Beauce</item>
+        <item>Pequeno Basset Griffon</item>
+        <item>Pequeno Brabançon</item>
+        <item>Pequeno Cão Leão</item>
+        <item>Pequinês</item>
+        <item>Perdigueiro Português</item>
+        <item>Pinscher Anão</item>
+        <item>Pitbull</item>
+        <item>Rottweiler</item>
+        <item>Samoiedo</item>
+        <item>São Bernardo</item>
+        <item>Schnauzer</item>
+        <item>Setter Inglês</item>
+        <item>Setter Irlandês</item>
+        <item>Shar Pei</item>
+        <item>Shih Tzu</item>
+        <item>Spaniel Japonês</item>
+        <item>Spitz Alemão</item>
+        <item>Staffordshire Bull Terrier</item>
+        <item>Teckel</item>
+        <item>Terranova</item>
+        <item>Terrier Brasileiro</item>
+        <item>Vizsla</item>
+        <item>Waimaraner</item>
+        <item>West Highland White Terrier</item>
+        <item>Yorkshire Terrier</item>
+        <item>Vira-latas</item>
+        <item>Outro</item>
+    </string-array>
+
+</resources>

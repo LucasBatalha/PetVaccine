@@ -1,0 +1,5 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <string name="vacina_lista_item"><xliff:g id="data">%s</xliff:g>\n<xliff:g id="vacina">%s</xliff:g></string>
+
+</resources>
